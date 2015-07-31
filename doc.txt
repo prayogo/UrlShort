@@ -1,0 +1,19 @@
+# Create by Prayogo
+
+This program was using a mysql database. Import the database for executing this program.
+This simple program only has function insert a new url and access url from the key.
+
+There are 3 files in this program:
+1. Connection.php
+2. index.php
+3. UrlData.php
+
+1. Connection.php
+This class was using for initiating the database connection.
+
+2. index.php
+This page was the index page from the program.
+
+3. UrlData
+This class was using for storing and manipulating the data that related to url.
+This class contain methods: save, get, generatedKey, and validateUrl.
